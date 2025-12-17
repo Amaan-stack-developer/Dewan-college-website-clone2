@@ -325,6 +325,120 @@
     font-weight: 100;
 }
 
+@media screen and (max-width: 375px) and (max-height: 667px) {
+
+  /* ===== HEADER ===== */
+  .header{
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .image{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+
+  .image img{
+    width: 90px;
+    height: auto;
+  }
+
+  .btn{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .btn-top{
+    width: 90%;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  /* ===== DROPDOWN LIST ===== */
+  .btn-list{
+    width: 90%;
+    left: 5%;
+    top: auto;
+  }
+
+  .btn-btn{
+    font-size: 14px;
+  }
+
+  /* ===== NAVBAR ===== */
+  .nav-links{
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .div1{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .div2,
+  .div3,
+  .div4,
+  .div5,
+  .div6,
+  .div7,
+  .div8,
+  .div9,
+  .div10{
+    width: 100%;
+    height: 45px;
+  }
+
+  .div2 a,
+  .div3 a,
+  .div4 a,
+  .div5 a,
+  .div6 a,
+  .div7 a,
+  .div8 a,
+  .div9 a,
+  .div10 a{
+    font-size: 13px;
+  }
+
+  /* ===== SECTION ===== */
+  .section1{
+    height: auto;
+    padding: 20px 0;
+    background-position: center;
+  }
+
+  /* ===== FORM ===== */
+  .section1 .form{
+    width: 95%;
+    right: auto;
+    top: auto;
+    position: relative;
+    margin: auto;
+  }
+
+  .form h3{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .form input,
+  .form select,
+  .form button{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .form button{
+    font-size: 15px;
+  }
+}
+
+
 
 
 
