@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.logo-img{
+    width: 80%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(226, 223, 223);
+    background-color: transparent;
+}
+.logo-img .img{
+    width: 80%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.img img{
+    width: 65%;
+    height: 110px;
+
+}
+/* Header Links */
+.navbar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.navbar .links{
+    width: 80%;
+    height: 40px;
+    gap: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.nav-links{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.div1{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.div2{
+    width: 6%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.div2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .2s;
+}
+.home-list{
+  width: 15%;
+  height: 200px;
+  position: absolute;
+  top: 190px;
+  left: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background-color: white;
+  display: none;
+  box-shadow: 1px 1px 5px 0px grey;
+}
+.home-list a{
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  transition: .3s;
+}
+.home-list a:hover{
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(37, 202, 64);
+  transition: .3s;
+}
+.div2:hover .aboutus{
+  text-decoration: none;
+  color: rgb(37, 202, 64);
+}
+.div2:hover .home-list{
+  display: block;
+}
+
+.div3{
+    width: 8%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: palegreen; */
+}
+.div3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .2s;
+}
+.div4{
+    width: 13%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(82, 82, 45); */
+}
+.div4 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .2s;
+}
+.div4:hover a{
+  color: rgb(37, 202, 64);
+}
+.div5{
+    width: 13%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(45, 175, 103); */
+}
+.div5 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .2s;
+}
+.div6{
+    width: 12%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(79, 43, 165); */
+}
+.div6 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .2s;
+}
+.div6 a:hover{
+  color: rgb(37, 202, 64);
+}
+.div7{
+    width: 6%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(107, 8, 46); */
+}
+.div7 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .2s;
+}
+.div8{
+    width: 10%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(13, 105, 158); */
+}
+.div8 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .2s;
+}
+.div9{
+    width: 7%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(218, 41, 41); */
+}
+.div9 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .2s;
+}
+.div9 a:hover{
+    text-decoration: none;
+    color: rgb(37, 202, 64);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div10{
+    width: 6%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(113, 108, 128); */
+}
+.div10 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .2s;
+}
+.div10 a:hover{
+    text-decoration: none;
+    color: rgb(37, 202, 64);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-list a:hover{
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(37, 202, 64);
+  transition: .3s;
+}
+.div2:hover .aboutus{
+  text-decoration: none;
+  color: rgb(37, 202, 64);
+}
+.div2:hover .home-list{
+  display: block;
+}
+
+.center-list{
+  width: 17%;
+  position: absolute;
+  height: 60px;
+  top: 190px;
+  left: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  box-shadow: 1px 1px 5px 0px grey;
+  background-color: white;
+  display: none;
+}
+.center-list a{
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  transition: .3s;
+}
+.center-list a:hover{
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(37, 202, 64);
+  transition: .3s;
+}
+.div5:hover .center-list{
+  display: block;
+}
+.div5:hover .center{
+  text-decoration: none;
+  color: rgb(37, 202, 64);
+}
+.gallery-list{
+  width: 17%;
+  position: absolute;
+  height: 60px;
+  top: 190px;
+  right: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  box-shadow: 1px 1px 5px 0px grey;
+  background-color: white;
+  display: none;
+}
+.div7:hover .gallery{
+  color: rgb(37, 202, 64);
+}
+.div7:hover .gallery-list{
+  display: block;
+  display: flex;
+}
+.gallery-list a{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+}
+.gallery-list a:hover{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 202, 64);
+  color: white;
+}
+.ques-list{
+  width: 18%;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  top: 190px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  right: 230px;
+  box-shadow: 1px 1px 5px 0px grey;
+  display: none;
+}
+.paper-1, .paper-2{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+}
+.div8:hover .ques-list{
+  display: block;
+}
+.div8:hover .question-paper{
+  color: rgb(37, 202, 64);
+}
+.paper-1:hover, .paper-2:hover{
+  background-color: rgb(37, 202, 64);
+  color: white;
+}

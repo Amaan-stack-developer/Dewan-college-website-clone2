@@ -345,122 +345,7 @@
     font-size: 17px;
     font-weight: 100;
 }
-@media screen and (max-width: 375px) and (max-height: 667px) {
 
-  /* ===== HEADER ===== */
-  .header{
-    flex-direction: column;
-    height: auto;
-    padding: 10px 0;
-  }
-
-  .image{
-    width: 100%;
-    height: auto;
-    justify-content: center;
-  }
-
-  .image img{
-    width: 90px;
-    height: auto;
-  }
-
-  .btn{
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-  }
-
-  .btn-top{
-    width: 90%;
-    height: 40px;
-    font-size: 14px;
-  }
-
-  /* ===== DROPDOWN LIST ===== */
-  .btn-list{
-    width: 90%;
-    left: 5%;
-    top: auto;
-  }
-
-  .btn-btn{
-    font-size: 14px;
-  }
-
-  /* ===== NAVBAR ===== */
-  .nav-links{
-    height: auto;
-    padding: 10px 0;
-  }
-
-  .div1{
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-  }
-
-  .div2,
-  .div3,
-  .div4,
-  .div5,
-  .div6,
-  .div7,
-  .div8,
-  .div9,
-  .div10{
-    width: 100%;
-    height: 45px;
-  }
-
-  .div2 a,
-  .div3 a,
-  .div4 a,
-  .div5 a,
-  .div6 a,
-  .div7 a,
-  .div8 a,
-  .div9 a,
-  .div10 a{
-    font-size: 13px;
-  }
-
-  /* ===== SECTION ===== */
-  .section1{
-    height: auto;
-    padding: 20px 0;
-    background-position: center;
-  }
-
-  /* ===== FORM ===== */
-  .section1 .form{
-    width: 95%;
-    right: auto;
-    top: auto;
-    position: relative;
-    margin: auto;
-  }
-
-  .form h3{
-    font-size: 15px;
-    text-align: center;
-  }
-
-  .form input,
-  .form select,
-  .form button{
-    width: 100%;
-    height: 40px;
-    font-size: 14px;
-  }
-
-  .form button{
-    font-size: 15px;
-  }
-}
-body {
-    background: #f7f7f7;
-}
 .college-section {
     padding: 40px 20px;
 }
@@ -605,43 +490,6 @@ body {
     font-weight: bold;
     transition: all 0.3s ease;
 }
-@media screen and (max-width: 375px) and (max-height: 667px) {
-
-    .container {
-        flex-direction: column;
-        padding: 15px;
-    }
-
-    .image-box {
-        padding: 10px;
-    }
-
-    .right h2 {
-        font-size: 18px;
-        text-align: center;
-    }
-
-    .right p {
-        font-size: 13px;
-        text-align: justify;
-    }
-
-    .courses {
-        grid-template-columns: 1fr;
-    }
-
-    .course {
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .btn-view-syllabus {
-        width: 100%;
-        margin-top: 10px;
-        margin-left: 60px;
-    }
-}
-
 
 body {
   background: #fff;
@@ -716,26 +564,6 @@ body {
 .life-box:hover .overlay {
   transform: translateX(0);
 }
-/* 📱 Mobile Media Query */
-@media screen and (max-width:375px) and (max-height:667px) {
-
-  .program-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .life-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .program-card {
-    width: 100%;
-  }
-
-  .life {
-    padding: 20px;
-  }
-}
 .Approvals {
     width: 100%;
     height: 100px;
@@ -776,38 +604,6 @@ body {
   color: #222;
   line-height: 1.8;
   text-align: justify;
-}
-/* 📱 Mobile Media Query */
-@media screen and (max-width:375px) and (max-height:667px) {
-
-  .accreditation {
-    padding: 30px 15px;
-  }
-
-  .acc-container {
-    flex-direction: column;
-  }
-
-  .acc-card {
-    width: 100%;
-    padding: 20px;
-  }
-
-  .acc-card img {
-    width: 70px;
-  }
-
-  .acc-card h3 {
-    font-size: 16px;
-  }
-
-  .acc-card p {
-    font-size: 13px;
-  }
-  .Approvals{
-    text-align: center;
-    font-size: 22px;
-  }
 }
 
 .placements {
@@ -868,45 +664,6 @@ body {
 .placement-btn:hover {
   background: #2bb400;
   color: #fff;
-}
-/* 📱 Mobile Media Query */
-@media screen and (max-width:375px) and (max-height:667px) {
-
-  .placements {
-    padding: 30px 15px;
-  }
-
-  .placements-wrapper {
-    flex-direction: column;
-  }
-
-  .logo-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .logo-box {
-    height: 80px;
-  }
-
-  .placement-content h2 {
-    font-size: 22px;
-  }
-
-  .placement-content p {
-    font-size: 13px;
-  }
-
-  .placement-btn {
-  display: inline-block;
-  padding: 10px 18px;
-  border: 1px solid #2bb400;
-  color: #2bb400;
-  text-decoration: none;
-  font-size: 14px;
-  border-radius: 4px;
-  margin-left: 70px;
-  transition: .3s;
-}
 }
 
 .footer {
@@ -1149,31 +906,243 @@ body {
 }
 /* 📱 Mobile Media Query */
 @media screen and (max-width: 375px) and (max-height: 667px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-box {
+    margin: 10px 0;
+  }
+  .logo-box img {
+    width: 100px;
+    margin: auto;
+  }
+  .social-icons a {
+    margin: 5px;
+  }
+  .footer-bottom {
+    font-size: 12px;
+  }
+    /* ===== HEADER ===== */
+  .header{
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
 
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
+  .image{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
 
-    .footer-box {
-        margin: 10px 0;
-    }
+  .image img{
+    width: 90px;
+    height: auto;
+  }
 
-    .logo-box img {
-        width: 100px;
-        margin: auto;
-    }
+  .btn{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
 
-    .social-icons a {
-        margin: 5px;
-    }
+  .btn-top{
+    width: 90%;
+    height: 40px;
+    font-size: 14px;
+  }
 
-    .footer-bottom {
-        font-size: 12px;
-    }
+    /* ===== DROPDOWN LIST ===== */
+  .btn-list{
+    width: 90%;
+    left: 5%;
+    top: auto;
+  }
+
+  .btn-btn{
+    font-size: 14px;
+  }
+
+  /* ===== NAVBAR ===== */
+  .nav-links{
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .div1{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .div2,
+  .div3,
+  .div4,
+  .div5,
+  .div6,
+  .div7,
+  .div8,
+  .div9,
+  .div10{
+    width: 100%;
+    height: 45px;
+  }
+
+  .div2 a,
+  .div3 a,
+  .div4 a,
+  .div5 a,
+  .div6 a,
+  .div7 a,
+  .div8 a,
+  .div9 a,
+  .div10 a{
+    font-size: 13px;
+  }
+
+  /* ===== SECTION ===== */
+  .section1{
+    height: auto;
+    padding: 20px 0;
+    background-position: center;
+  }
+
+  /* ===== FORM ===== */
+  .section1 .form{
+    width: 95%;
+    right: auto;
+    top: auto;
+    position: relative;
+    margin: auto;
+  }
+
+  .form h3{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .form input,
+  .form select,
+  .form button{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .form button{
+    font-size: 15px;
+  }
+  .container {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .image-box {
+    padding: 10px;
+  }
+
+  .right h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .right p {
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  .courses {
+    grid-template-columns: 1fr;
+  }
+
+  .course {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .btn-view-syllabus {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .program-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .life-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .program-card {
+    width: 100%;
+  }
+
+  .life {
+    padding: 20px;
+  }
+  .accreditation {
+    padding: 30px 15px;
+  }
+
+  .acc-container {
+    flex-direction: column;
+  }
+
+  .acc-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .acc-card img {
+    width: 70px;
+  }
+
+  .acc-card h3 {
+    font-size: 16px;
+  }
+
+  .acc-card p {
+    font-size: 13px;
+  }
+  .Approvals{
+    text-align: center;
+    font-size: 22px;
+  }
+  .placements {
+    padding: 30px 15px;
+  }
+
+  .placements-wrapper {
+    flex-direction: column;
+  }
+
+  .logo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .logo-box {
+    height: 80px;
+  }
+
+  .placement-content h2 {
+    font-size: 22px;
+  }
+
+  .placement-content p {
+    font-size: 13px;
+  }
+
+  .placement-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    border: 1px solid #2bb400;
+    color: #2bb400;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-left: 70px;
+    transition: .3s;
+  }
 }
-
-
-
-
-
